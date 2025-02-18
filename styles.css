@@ -1,0 +1,148 @@
+:root {
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --header-background-color: #333;
+    --header-text-color: #fff;
+    --article-background-color: #fff;
+    --article-border-color: #ddd;
+    --footer-background-color: #333;
+    --footer-text-color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: var(--header-text-color);
+    text-decoration: none;
+}
+
+.search-bar {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 0.5rem;
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    border: none;
+    cursor: pointer;
+}
+button {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 50%; /* Round shape */
+    padding: 10px 20px;
+    cursor: pointer; /* Pointer cursor on hover */
+    position: absolute; /* Positioning */
+    left: 10px; /* Distance from the right side */
+    top: 10px; /* Distance from the top */
+
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker transparent background on hover */
+}
+
+
+.hero {
+    padding: 2rem;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+article {
+    background-color: var(--article-background-color);
+    border: 1px solid var(--article-border-color);
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 30%;
+    text-align: center;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.author {
+    font-style: italic;
+    color: #555;
+}
+
+.newsletter-signup {
+    text-align: center;
+    padding: 2rem;
+}
+
+.newsletter-signup input {
+    padding: 0.5rem;
+    width: 200px;
+}
+
+.newsletter-signup button {
+    padding: 0.5rem;
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
